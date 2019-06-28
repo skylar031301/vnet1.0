@@ -1,5 +1,5 @@
 {
-    "api_host": "http://localhost",
+    "api_host": "https://ssr.nasteat.com",
     "key": "webapi key",
     "node_id": 1
 }
