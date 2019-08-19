@@ -1,7 +1,0 @@
-crontab -e 在root权限下加入如下，两种任选一种
-
-1.每十分钟检测进程是否存在，若不存在，则启动，无log
-*/10 * * * * bash /root/vnet/run.sh
-
-2.每十分钟检测进程是否存在，若不存在，则启动，记录log
-*/10 * * * * bash /root/vnet/logrun.sh
